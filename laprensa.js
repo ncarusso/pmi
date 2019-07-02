@@ -11,7 +11,7 @@ function onResponse(req, res) {
       log( "Script executed." );
       res.Body = body.replace( 
         'id="content2">',
-        'id="content2"><script type="text/javascript"> document.getElementById("content").innerHTML = \'<div role="main" class="site-content" id="content"><div class="block_home_slider" note="475348"><div class="post-image"><img src="https://media.licdn.com/dms/image/C5603AQHCp9VI8CKrGA/profile-displayphoto-shrink_100_100/0?e=1564012800&v=beta&t=HRAlHJGzcSGdiwO4zYhtnUpqzjHCYOS1JNDvUtqeGR8" width="620" height="310"></div><div class="post-content"><div class="title">Hernan Filannino, el nuevo candidato a presidente</div></div><div class="post-body">Hernan Filannino, más conocido como "Fila", lanzó su candidatura a presidente en el día de la fecha. El resto de los candidatos no contaban con semejante competencia.</div></div></div>\'; </script>'
+        'id="content2"><script type="text/javascript"> document.getElementById("content").innerHTML = \'<div role="main" class="site-content" id="content"><div class="block_home_slider" note="475348"><div class="post-image"><img src="http://drive.google.com/uc?export=view&id=1p6mdzEl3G76y81pvj2UqwwoS0VdLyytL" width="620" height="310"></div><div class="post-content"><div class="title">IPG Cyber, presenta su charla de hacking</div></div><div class="post-body">IPG Cyber, equipo de IS de Buenos Aires, se presenta en el día de hoy con una nueva charla de hacking. Toda la gente está sorprendida y expectante.</div></div></div>\'; </script>'
       ); 
     }
   }
